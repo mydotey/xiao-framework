@@ -1,0 +1,379 @@
+* {
+
+}
+
+html
+{
+    overflow-y: scroll;
+}
+
+body,.jNiceSelectWrapper div span,#main fieldset textarea,#main fieldset .text-small,#main fieldset .text-medium,#main fieldset .text-long
+{
+    color: #333333;
+}
+
+#container.no-sidebar
+{
+    background-image: none;
+}
+
+#container.no-sidebar #main
+{
+    float: none;
+    width: auto;
+}
+
+button span span {
+    font-weight: bold;
+    color: #555555;
+}
+
+.addNew {
+    margin-top: 10px;
+    padding: 4px;
+}
+
+a {
+    display: inline-block;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #555555;
+    cursor: pointer;
+    border: none;
+/*    background: url("elements/button-submit.gif") no-repeat left top;*/
+}
+
+#wrapper h1
+{
+    margin: 0;
+    padding: 15px 0 10px 5px;
+    width: 280px;
+    background: url("../images/logo.gif") no-repeat;
+}
+
+#sidebar .sideNav li a
+{
+    width: 191px;
+}
+
+#main table a {
+    margin-right: 5px;
+}
+
+#main table {
+    margin-top: 20px;
+}
+
+#main form table tr th {
+    width: 100px;
+    text-align: left;
+}
+
+#main form table tr td {
+    width: auto;
+}
+
+#main {
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+p#message {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #C9C943;
+    color: #C66653;
+}
+
+#main span.field-desc
+{
+    display: block;
+    margin-top: 5px;
+}
+
+#main fieldset.empty-data
+{
+    margin-top: 20px;
+}
+
+#main p.field label
+{
+    display: inline-block;
+    width: auto;
+    min-width: 100px;
+}
+
+#main p.field input.text-small, #main p.field input.text-long, #main p.field textarea
+{
+    float: none;
+}
+
+#main p.field textarea
+{
+    display: block;
+    width: 80%;
+    height: 60px;
+    overflow: auto;
+}
+
+
+#main h4
+{
+    margin-bottom: 10px;
+}
+
+#main h4 span.desc
+{
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#main p.field div.jNiceSelectWrapper
+{
+    float: none;
+    display: inline-block;
+    width: 160px;
+    margin-bottom: -9px;
+}
+
+#main p.field div.jNiceSelectWrapper div span
+{
+    width: 140px;
+}
+
+#main p.field div.jNiceSelectWrapper ul
+{
+    width: 158px !important;
+}
+
+#main p.field .jNiceCheckbox
+{
+    float: none;
+    display: inline-block;
+}
+
+iframe#pageIframe
+{
+    border: 1px solid #7E9DB9;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 718px;
+    height: 500px;
+    overflow: auto;
+}
+
+#main fieldset.disabledProperties p span label
+{
+    display: inline-block;
+    min-width: 100px;
+    width: auto;
+}
+
+#main fieldset.disabledProperties p span .jNiceCheckbox
+{
+    display: inline-block;
+    float: none;
+}
+
+#main fieldset.disabledProperties p span
+{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#container.generate-page p.submit
+{
+    margin: 20px 0;
+}
+
+#container.generate-page p.submit.build
+{
+    padding-left: 50px;
+}
+
+#container.generate-page p.submit a
+{
+    display: inline-block;
+    margin: 8px 10px 0 10px;
+}
+
+#tabs
+{
+    font-size: 10px !important;
+    font-family: verdana,tahoma,helvetica;
+}
+
+#tabs th, #tabs td
+{
+    padding: 5px 0;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#tabs th
+{
+    width: 80px;
+    font-weight: normal;
+}
+
+#tabs td
+{
+    width: 130px;
+}
+
+#tabs input[type="text"] #tabs select, #tabs textarea, #tabs option
+{
+    width: 100px;
+    overflow: hidden;
+}
+
+#tabs select
+{
+    width: 120px;
+    overflow: hidden;
+}
+
+#tabs textarea
+{
+    width: 128px;
+    height: 60px;
+}
+
+#main p.checkbox-list span.list
+{
+    display: block;
+}
+
+#main p.checkbox-list span.list span a.jNiceCheckbox
+{
+    float: none;
+    display: inline-block;
+}
+
+#main p.checkbox-list span.list label
+{
+    display: inline-block;
+    margin-right; 10px;
+    width: auto;
+    min-width: 100px;
+}
+
+#main fieldset h4.field-title
+{
+    margin: 10px 0;
+}
+
+#main fieldset p.field-value
+{
+    margin: 0 0 20px 0;
+}
+
+#main fieldset p.links
+{
+    margin: 20px 0;
+}
+
+#main fieldset p.links a
+{
+    margin-right: 10px;
+}
+
+/* CKEditor */
+
+#main span.cke_skin_kama
+{
+    padding: 0;
+    border: none;
+}
+
+#main span.cke_skin_kama table tr td, #main span.cke_skin_kama table tr th
+{
+    padding: 5px;
+}
+
+.cke_skin_kama a
+{
+    display: inline;
+}
+
+/* Page Content */
+
+#main .page-content
+{
+    padding: 20px 10px;
+    line-height: 1.5em;
+}
+
+#main .page-content span.image img
+{
+    margin-right: 10px;
+}
+
+#main .page-content p
+{
+    margin-bottom: 10px;
+}
+
+#main .page-content ul
+{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+#main .page-content ol
+{
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+#main .page-content h1
+{
+    float: none;
+    border: none;
+    margin: 10px 0 20px 0;
+    font-size: 36px;
+    background: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main .page-content h2
+{
+    float: none;
+    border: none;
+    margin: 10px 0 20px 0;
+    background: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#main .page-content h3
+{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#main .page-content h4
+{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#main .page-content h5, #main .page-content h6
+{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#main fieldset.search
+{
+    margin-bottom: 0;
+    border: none;
+    padding-bottom: 10px;
+}
+
+#main fieldset.search button
+{
+    margin-top: -3px;
+}
