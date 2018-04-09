@@ -1,0 +1,17 @@
+.project
+.classpath
+.settings/
+.metadata
+*~
+.recommenders
+
+.vscode
+
+*.log
+*.ctxt
+.mtj.tmp/
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
