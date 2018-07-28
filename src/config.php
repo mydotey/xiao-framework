@@ -4,8 +4,8 @@ $config = array(
     "dbConfig" => array(
         "server" => "localhost",
         "user" => "root",
-        "password" => "",
-        "name" => "framework"
+        "password" => "<db_password>",
+        "name" => "<db_name>"
     ),
     // Install Settings - Available at Installation Only
     "install" => array(
@@ -23,8 +23,8 @@ $config = array(
     "errorReporting" => E_ERROR | E_WARNING | E_PARSE | E_NOTICE, // or E_ALL
 
     // Site
-    "webRoot" => "http://xiao/framework/source",
-    "title" => "The Site Title",
+    "webRoot" => "http://<host>/<web_root>",
+    "title" => "<site_title>",
 
     // Modules
     // menuOrder is required, and unique. an action also may be a main menu item if has a attribute "asMainMenu" with value true.
